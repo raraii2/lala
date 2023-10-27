@@ -1,0 +1,57 @@
+body { 
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     background-color: #f7e5;  
+}
+
+header { 
+     background-color: #ff85a2; 
+     padding: 20px;  
+} 
+
+h1{ 
+    color: #000000; 
+    font-size: 50px; 
+} 
+
+
+.galeria { 
+   display: flex; 
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center; 
+   align-items: center; 
+   margin: 20px;
+}
+.imagem-legenda{ 
+    text-align: center;
+} 
+
+.imagem-legenda img{ 
+    max-width: 300px;
+    border: 10px; 
+}
+
+.imagem-legenda p { 
+    color: #555;
+}
+ 
+button { 
+    background-color: #ff85a2; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer;
+}
+ 
+button:hover{ 
+    background-color: #ff6b8b; 
+}
+
+#textoExibido { 
+    margin: 20px;
+}
+ 
+p{  
+    color: #fff;
+}
